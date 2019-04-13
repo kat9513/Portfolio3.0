@@ -22,7 +22,7 @@ class Main extends Component {
                 <NavBar />
                 <HashRouter>
                     <div>
-                        <h1>Katie Higgins</h1>
+                        <h1>Katie Brangus</h1>
                         <ul className="header">
 
                         </ul>
