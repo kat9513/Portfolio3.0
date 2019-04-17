@@ -8,12 +8,10 @@ export default class Home extends Component {
 
                 <h2>Meet Katie</h2>
                 <div className="row justify-content-around">
-                    <div className="col-lg-1">
+                    <div className="col-md-4">
+                        <img className="img-responsive MyFace" src={icon} alt="myFace" />
                     </div>
-                    <div className="col-lg-4">
-                        <img className="MyFace img-responsive" src={icon} alt="myFace" />
-                    </div>
-                    <div className="About col-lg-6">
+                    <div className="About col-md-6">
                         <p>
                             <span>
                                 Web developer and visual artist with a passion for shaping unique narratives and experiences.

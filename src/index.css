@@ -50,6 +50,8 @@ body {
   .nav-item{
     color: #FFCC00;
   }
+  .nav-item > a:hover{
+  }
   .content{
     background-color: transparent;
   }
