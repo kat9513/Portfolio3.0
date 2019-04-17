@@ -33,3 +33,35 @@ body {
   .content li {
     margin-bottom: 10px;
   }
+  .navbar{
+    font-family: Futura;
+    font-size: 20pt;
+    background-color: #6fbed6;
+  }
+  .navbar-brand{
+    font-size: 25pt;
+    color: #FFCC00;
+
+  }
+  .navbar-nav{
+    font-size: 18pt;
+    justify-content: right;
+  }
+  .nav-item{
+    color: #FFCC00;
+  }
+  .content{
+    background-color: transparent;
+  }
+  h2{
+    font-family: Futura;
+    color: #6fbed6;
+  }
+  p{
+    font-family: Helvetica, sans-serif;
+    font-size: 18pt;
+    color: #6fbed6;
+  }
+ .MyFace{
+   border-radius: 50%;
+ }
