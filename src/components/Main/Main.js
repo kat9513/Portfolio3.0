@@ -2,9 +2,7 @@ import React, { Component } from "react";
 
 import {
     Route,
-    HashRouter,
-    NavLink,
-
+    HashRouter
 } from "react-router-dom";
 
 import NavBar from "../NavBar/NavBar.component"

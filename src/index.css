@@ -62,12 +62,13 @@ body {
   }
   p{
     font-family: Helvetica, sans-serif;
-    font-size: 15pt;
+    font-size: 12pt;
     color: #6fbed6;
   }
  .MyFace{
    border-radius: 50%;
    width: 75%;
+   padding: 0%;
  }
 .fa-arrow-circle-down{
   color: #FFCC00;
@@ -80,6 +81,13 @@ body {
 .card-link{
   color: #6fbed6;
 }
-button{
-  padding: 0;
+h2.pageHeading{
+  padding-bottom: 3%;
+}
+.contactContent{
+  text-align: center;
+  font-size: 20pt;
+}
+.eMail{
+  font-size: 25pt;
 }
