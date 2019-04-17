@@ -67,6 +67,7 @@ body {
   }
  .MyFace{
    border-radius: 50%;
+   width: 75%;
  }
 .fa-arrow-circle-down{
   color: #FFCC00;
