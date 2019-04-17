@@ -39,12 +39,12 @@ body {
     background-color: #6fbed6;
   }
   .navbar-brand{
-    font-size: 25pt;
+    font-size: 20pt;
     color: #FFCC00;
 
   }
   .navbar-nav{
-    font-size: 18pt;
+    font-size: 15pt;
     justify-content: right;
   }
   .nav-item{
@@ -73,6 +73,9 @@ body {
   color: #FFCC00;
   margin: 0%;
   padding: 0%;
+}
+.fa-arrow-circle-down:hover {
+  color: #c49e05;
 }
 .card-link{
   color: #6fbed6;
