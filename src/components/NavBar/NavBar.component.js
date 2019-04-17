@@ -9,7 +9,7 @@ export default class NavBar extends Component {
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon">
-                            <i class="fas fa-arrow-circle-down fa-2x"></i>
+                            <i class="fas fa-arrow-circle-down fa-1x"></i>
                         </span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">

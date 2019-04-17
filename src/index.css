@@ -80,3 +80,6 @@ body {
 .card-link{
   color: #6fbed6;
 }
+button{
+  padding: 0;
+}
