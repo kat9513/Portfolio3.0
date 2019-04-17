@@ -50,7 +50,8 @@ body {
   .nav-item{
     color: #FFCC00;
   }
-  .nav-item > a:hover{
+  a:hover{
+    color: #c49e05;
   }
   .content{
     background-color: transparent;
@@ -61,9 +62,17 @@ body {
   }
   p{
     font-family: Helvetica, sans-serif;
-    font-size: 18pt;
+    font-size: 15pt;
     color: #6fbed6;
   }
  .MyFace{
    border-radius: 50%;
  }
+.fa-arrow-circle-down{
+  color: #FFCC00;
+  margin: 0%;
+  padding: 0%;
+}
+.card-link{
+  color: #6fbed6;
+}
