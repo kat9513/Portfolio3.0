@@ -23,58 +23,71 @@ export default class Portfolio extends Component {
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img class="d-block w-100" src={aggretsuko} alt="First slide" />
-                            <h5>Trivia Game</h5>
-                            <p>
-                            <a href="https://github.com/kat9513/TriviaGame">GitHub</a>
-                            <br/>
-                            <a href="https://kat9513.github.io/TriviaGame/">Site</a>
-                            </p>
+                            <img class="portfolioImage d-block w-100" src={aggretsuko} alt="First slide" />
+                            <div class="portfolioContent text-center">
+                                <h5><b>Trivia Game</b></h5>
+                                <p class="links text-center">
+                                    <a class="links" href="https://github.com/kat9513/TriviaGame">GitHub</a>
+                                    <br />
+                                    <a class="links" href="https://kat9513.github.io/TriviaGame/">Site</a>
+                                </p>
+                            </div>
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src={artsy} alt="Second slide" />
-                            <h5>Artsy</h5>
-                            <p>
-                            <a href="https://github.com/kat9513/TriviaGame">GitHub</a>
-                            <br/>
-                            <a href="https://kat9513.github.io/TriviaGame/">Site</a>
-                            </p>
+                            <img class="portfolioImage d-block w-100" src={artsy} alt="Second slide" />
+                            <div class="portfolioContent text-center">
+                                <h5><b>Artsy</b></h5>
+                                <p class="links text-center">
+                                    <a class="links" href="https://github.com/kat9513/TriviaGame">GitHub</a>
+                                    <br />
+                                    <a class="links" href="https://kat9513.github.io/TriviaGame/">Site</a>
+                                </p>
+                            </div>
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src={burger} alt="Third slide" />
-                            <h5>Eat da Burger!</h5>
-                            <p>
-                            <a href="https://github.com/kat9513/TriviaGame">GitHub</a>
-                            <br/>
-                            <a href="https://kat9513.github.io/TriviaGame/">Site</a>
-                            </p>
+                            <img class="portfolioImage d-block w-100" src={burger} alt="Third slide" />
+                            <div class="portfolioContent text-center">
+                                <h5><b>Eat da Burger!</b></h5>
+                                <p class="links text-center">
+                                    <a class="links" href="https://github.com/kat9513/TriviaGame">GitHub</a>
+                                    <br />
+                                    <a class="links" href="https://kat9513.github.io/TriviaGame/">Site</a>
+                                </p>
+                            </div>
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src={crystal} alt="Third slide" />
-                            <h5>Crystal Collector</h5>
-                            <p>
-                            <a href="https://github.com/kat9513/TriviaGame">GitHub</a>
-                            <br/>
-                            <a href="https://kat9513.github.io/TriviaGame/">Site</a>
-                            </p>
+                            <img class="portfolioImage d-block w-100" src={crystal} alt="Third slide" />
+                            <div class="portfolioContent text-center">
+                                <h5><b>Crystal Collector</b></h5>
+                                <p class="links">
+                                    <a class="links" href="https://github.com/kat9513/TriviaGame">GitHub</a>
+                                    <br />
+                                    <a class="links" href="https://kat9513.github.io/TriviaGame/">Site</a>
+                                </p>
+                            </div>
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src={geo} alt="Third slide" />
-                            <h5>GeoCuisine</h5>
-                            <p>
-                            <a href="https://github.com/kat9513/TriviaGame">GitHub</a>
-                            <br/>
-                            <a href="https://kat9513.github.io/TriviaGame/">Site</a>
-                            </p>
+                            <img class="portfolioImage d-block w-100" src={geo} alt="Third slide" />
+                            <div class="portfolioContent text-center">
+                                <h5><b>GeoCuisine</b></h5>
+                                <p class="links">
+                                    <a class="links" href="https://github.com/kat9513/TriviaGame">GitHub</a>
+                                    <br />
+                                    <a class="links" href="https://kat9513.github.io/TriviaGame/">Site</a>
+                                </p>
+                            </div>
+
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src={psychic} alt="Third slide" />
-                            <h5>Psychic Game</h5>
-                            <p>
-                            <a href="https://github.com/kat9513/TriviaGame">GitHub</a>
-                            <br/>
-                            <a href="https://kat9513.github.io/TriviaGame/">Site</a>
-                            </p>
+                            <img class="portfolioImage d-block w-100" src={psychic} alt="Third slide" />
+                            <div class="portfolioContent text-center">
+                                <h5><b>Psychic Game</b></h5>
+                                <p class="links">
+                                    <a class="links" href="https://github.com/kat9513/TriviaGame">GitHub</a>
+                                    <br />
+                                    <a class="links" href="https://kat9513.github.io/TriviaGame/">Site</a>
+                                </p>
+                            </div>
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

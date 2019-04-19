@@ -94,3 +94,29 @@ h2.pageHeading{
 a.card-link:hover{
   color: #3d6a77;
 }
+.carousel-item {
+  height: 350px;
+}
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+.carousel-indicators {
+  bottom: -10px;
+}
+.portfolioContent{
+  font-family: Futura;
+  color: #6fbed6;
+}
+.links{
+  font-family: Helvetica, sans-serif;
+  color: #6fbed6;
+}
+.links:hover{
+  color: #3d6a77;
+}
+img.portfolioImage{
+  height: 200px;
+  object-fit: contain;
+}
