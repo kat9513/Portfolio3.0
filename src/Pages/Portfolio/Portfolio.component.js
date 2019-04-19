@@ -38,9 +38,9 @@ export default class Portfolio extends Component {
                             <div class="portfolioContent text-center">
                                 <h5><b>Artsy</b></h5>
                                 <p class="links text-center">
-                                    <a class="links" href="https://github.com/kat9513/TriviaGame">GitHub</a>
+                                    <a class="links" href="https://github.com/kat9513/GIPHY_APP">GitHub</a>
                                     <br />
-                                    <a class="links" href="https://kat9513.github.io/TriviaGame/">Site</a>
+                                    <a class="links" href="https://kat9513.github.io/GIPHY_APP/">Site</a>
                                 </p>
                             </div>
                         </div>
@@ -49,9 +49,9 @@ export default class Portfolio extends Component {
                             <div class="portfolioContent text-center">
                                 <h5><b>Eat da Burger!</b></h5>
                                 <p class="links text-center">
-                                    <a class="links" href="https://github.com/kat9513/TriviaGame">GitHub</a>
+                                    <a class="links" href="https://github.com/kat9513/burger">GitHub</a>
                                     <br />
-                                    <a class="links" href="https://kat9513.github.io/TriviaGame/">Site</a>
+                                    <a class="links" href="https://tranquil-island-56945.herokuapp.com/burgers">Site</a>
                                 </p>
                             </div>
                         </div>
@@ -60,9 +60,9 @@ export default class Portfolio extends Component {
                             <div class="portfolioContent text-center">
                                 <h5><b>Crystal Collector</b></h5>
                                 <p class="links">
-                                    <a class="links" href="https://github.com/kat9513/TriviaGame">GitHub</a>
+                                    <a class="links" href="https://github.com/kat9513/Crystal-Game">GitHub</a>
                                     <br />
-                                    <a class="links" href="https://kat9513.github.io/TriviaGame/">Site</a>
+                                    <a class="links" href="https://kat9513.github.io/Crystal-Game/index.html">Site</a>
                                 </p>
                             </div>
                         </div>
@@ -71,9 +71,9 @@ export default class Portfolio extends Component {
                             <div class="portfolioContent text-center">
                                 <h5><b>GeoCuisine</b></h5>
                                 <p class="links">
-                                    <a class="links" href="https://github.com/kat9513/TriviaGame">GitHub</a>
+                                    <a class="links" href="https://github.com/kat9513/fixingProject1">GitHub</a>
                                     <br />
-                                    <a class="links" href="https://kat9513.github.io/TriviaGame/">Site</a>
+                                    <a class="links" href="https://kat9513.github.io/GeoCuisine/?">Site</a>
                                 </p>
                             </div>
 
@@ -83,9 +83,9 @@ export default class Portfolio extends Component {
                             <div class="portfolioContent text-center">
                                 <h5><b>Psychic Game</b></h5>
                                 <p class="links">
-                                    <a class="links" href="https://github.com/kat9513/TriviaGame">GitHub</a>
+                                    <a class="links" href="https://github.com/kat9513/Psychic-Game">GitHub</a>
                                     <br />
-                                    <a class="links" href="https://kat9513.github.io/TriviaGame/">Site</a>
+                                    <a class="links" href="https://kat9513.github.io/Psychic-Game/">Site</a>
                                 </p>
                             </div>
                         </div>
