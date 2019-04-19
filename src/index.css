@@ -91,3 +91,6 @@ h2.pageHeading{
 .eMail{
   font-size: 25pt;
 }
+a.card-link:hover{
+  color: #3d6a77;
+}

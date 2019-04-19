@@ -12,7 +12,6 @@ import Portfolio from "../../Pages/Portfolio/Portfolio.component";
 import Artwork from "../../Pages/Artwork/Artwork.component";
 import Contact from "../../Pages/Contact/Contact.component";
 
-
 class Main extends Component {
     render() {
         return (
