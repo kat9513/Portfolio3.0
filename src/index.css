@@ -138,3 +138,9 @@ img.artworkImage{
 .artTitle{
   padding-top: 40px;
 }
+a.instaLink{
+  font-family: 'Baloo Chettan', cursive;
+  color: #6fbed6;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}

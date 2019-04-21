@@ -15,7 +15,7 @@ export default class Home extends Component {
                         <p>
                             <span>
                                 <p className="aboutContent">
-                                    <h4>Web developer and visual artist with a passion for shaping unique narratives and experiences.</h4>
+                                    <h4>Web Developer and Visual Artist with a passion for shaping unique narratives and experiences.</h4>
                                     <br></br>
                                 </p>
                             </span>
@@ -23,13 +23,13 @@ export default class Home extends Component {
                                 <p className="aboutContent">
                                     Highly creative and driven individual dedicated to learning new skills and pushing for improvement.
                                     Completed SMU’s Coding Bootcamp in 2019 and developed skills in HTML, CSS, Javascript, jQuery, Bootstrap, NodeJS, Express, React, MySQL, and MongoDB.
-                                    In addition to training in illustration and digital graphics, is also an experience Content Writer and Customer Service Provider.
+                                    In addition to training in illustration and digital graphics, also has experience as a Content Writer and Customer Service Provider.
                                 <br></br>
                                 </p>
                             </span>
                             <span>
                                 <p className="aboutContent">
-                                    Interested in Art and Technology. Particularly how Tech impacts communication and interactions with our environment,
+                                    Interested in Art and Technology. Particularly how Tech impacts communication and the way we interact with our environment,
                                     and the potential boundaries Augmented and Virtual Reality can push in shaping Stories, Narratives, and Artworks.
                                 <br></br>
                                 </p>

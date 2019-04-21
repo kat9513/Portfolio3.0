@@ -15,11 +15,6 @@ const Hibiscus = require("../../Assets/Images/ArtWork/Hibiscus.JPG")
 const love = require("../../Assets/Images/ArtWork/LoveDroubt.jpg")
 const marlboro = require("../../Assets/Images/ArtWork/marlboro.jpg")
 
-
-
-
-
-
 export default class Artwork extends Component {
     render() {
         return (
@@ -34,14 +29,14 @@ export default class Artwork extends Component {
                         <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>    
-                        <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>    
-                        <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>    
-                        <li data-target="#carouselExampleIndicators" data-slide-to="10"></li>    
-                        <li data-target="#carouselExampleIndicators" data-slide-to="11"></li>   
-                        <li data-target="#carouselExampleIndicators" data-slide-to="12"></li>   
-                        <li data-target="#carouselExampleIndicators" data-slide-to="13"></li>   
-                        </ol>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="10"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="11"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="12"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="13"></li>
+                    </ol>
                     <div class="carousel-inner">
                         <div class="container carousel-item active">
                             <img class="artworkImage img-fluid d-block w-100" src={Aquarium} alt="First slide" />
@@ -136,6 +131,16 @@ export default class Artwork extends Component {
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
                     </a>
+                </div>
+                <div class="text-center">
+                    <a class="instaLink" href="https://www.instagram.com/katie.higgins/">Check out more of my work on Instagram!</a>
+                </div>
+                <div>
+                    <p class="text-center">
+                    I obtained my Bachelor's degree in Art from Austin College in Sherman, TX in 2017. 
+                        During my senior year, I had the opportunity to study Art and the history of the Renaissance at Florence University of Art in Italy. It was during my time there that I became increasingly interested
+                        in conceptual and contemporary artworks, and the interplay between art and technology in defining trends and taste.
+                    </p>
                 </div>
             </div>
         )
