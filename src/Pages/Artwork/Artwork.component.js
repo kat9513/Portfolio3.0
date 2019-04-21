@@ -6,6 +6,18 @@ const BadGirl = require("../../Assets/Images/ArtWork/BadGirl.JPG")
 const BigHead = require("../../Assets/Images/ArtWork/BigHead.jpg")
 const Blam = require("../../Assets/Images/ArtWork/blam(1).png")
 const Blue = require("../../Assets/Images/ArtWork/BlueBonnet.jpg")
+const Bouqet = require("../../Assets/Images/ArtWork/Bouqet.jpg")
+const Cartoon = require("../../Assets/Images/ArtWork/CartoonStudy.JPG")
+const frog = require("../../Assets/Images/ArtWork/deadfrogg.jpg")
+const flowers = require("../../Assets/Images/ArtWork/FlowersMAC.JPG")
+const FlutterBy = require("../../Assets/Images/ArtWork/FlutterBy.JPG")
+const Hibiscus = require("../../Assets/Images/ArtWork/Hibiscus.JPG")
+const love = require("../../Assets/Images/ArtWork/LoveDroubt.jpg")
+const marlboro = require("../../Assets/Images/ArtWork/marlboro.jpg")
+
+
+
+
 
 
 export default class Artwork extends Component {
@@ -21,43 +33,98 @@ export default class Artwork extends Component {
                         <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>                    </ol>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>    
+                        <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>    
+                        <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>    
+                        <li data-target="#carouselExampleIndicators" data-slide-to="10"></li>    
+                        <li data-target="#carouselExampleIndicators" data-slide-to="11"></li>   
+                        <li data-target="#carouselExampleIndicators" data-slide-to="12"></li>   
+                        <li data-target="#carouselExampleIndicators" data-slide-to="13"></li>   
+                        </ol>
                     <div class="carousel-inner">
                         <div class="container carousel-item active">
                             <img class="artworkImage img-fluid d-block w-100" src={Aquarium} alt="First slide" />
                             <div class="portfolioContent text-center">
-                                <h5><b>Fish Tank</b></h5>
+                                <h5 class="artTitle"><b>Fish Tank</b></h5>
                             </div>
                         </div>
                         <div class="container carousel-item">
                             <img class="artworkImage img-fluid d-block w-100" src={Ravine} alt="Second slide" />
                             <div class="portfolioContent text-center">
-                                <h5><b>A Ravine in the Earth a Mile Deep</b></h5>
+                                <h5 class="artTitle"><b>A Ravine in the Earth a Mile Deep</b></h5>
                             </div>
                         </div>
                         <div class="container carousel-item">
                             <img class="artworkImage img-fluid d-block w-100" src={BadGirl} alt="Third slide" />
                             <div class="portfolioContent text-center">
-                                <h5><b>Bad Love</b></h5>
+                                <h5 class="artTitle"><b>Bad Love</b></h5>
                             </div>
                         </div>
                         <div class="container carousel-item">
-                            <img class="artworkImage img-fluid d-block w-100" src={BigHead} alt="Third slide" />
+                            <img class="artworkImage img-fluid d-block w-100" src={BigHead} alt="Fourth slide" />
                             <div class="portfolioContent text-center">
-                                <h5><b>Big Head</b></h5>
+                                <h5 class="artTitle"><b>Big Head</b></h5>
                             </div>
                         </div>
                         <div class="container carousel-item">
-                            <img class="artworkImage img-fluid d-block w-100" src={Blam} alt="Third slide" />
+                            <img class="artworkImage img-fluid d-block w-100" src={Blam} alt="Fifth slide" />
                             <div class="portfolioContent text-center">
-                                <h5><b>Blam!</b></h5>
+                                <h5 class="artTitle"><b>Blam!</b></h5>
                             </div>
 
                         </div>
                         <div class="container carousel-item">
-                            <img class="artworkImage img-fluid d-block w-100" src={Blue} alt="Third slide" />
+                            <img class="artworkImage img-fluid d-block w-100" src={Blue} alt="Sixth slide" />
                             <div class="portfolioContent text-center">
-                                <h5><b>Texas Bluebonnets</b></h5>
+                                <h5 class="artTitle"><b>Texas Bluebonnets</b></h5>
+                            </div>
+                        </div>
+                        <div class="container carousel-item">
+                            <img class="artworkImage img-fluid d-block w-100" src={Bouqet} alt="Seventh slide" />
+                            <div class="portfolioContent text-center">
+                                <h5 class="artTitle"><b>Bouquet</b></h5>
+                            </div>
+                        </div>
+                        <div class="container carousel-item">
+                            <img class="artworkImage img-fluid d-block w-100" src={Cartoon} alt="Eighth slide" />
+                            <div class="portfolioContent text-center">
+                                <h5 class="artTitle"><b>Cartoon Study</b></h5>
+                            </div>
+                        </div>
+                        <div class="container carousel-item">
+                            <img class="artworkImage img-fluid d-block w-100" src={frog} alt="Ninth slide" />
+                            <div class="portfolioContent text-center">
+                                <h5 class="artTitle"><b>El Chupacabra</b></h5>
+                            </div>
+                        </div>
+                        <div class="container carousel-item">
+                            <img class="artworkImage img-fluid d-block w-100" src={flowers} alt="Tenth slide" />
+                            <div class="portfolioContent text-center">
+                                <h5 class="artTitle"><b>Flower Study</b></h5>
+                            </div>
+                        </div>
+                        <div class="container carousel-item">
+                            <img class="artworkImage img-fluid d-block w-100" src={FlutterBy} alt="Eleventh slide" />
+                            <div class="portfolioContent text-center">
+                                <h5 class="artTitle"><b>Flutter By</b></h5>
+                            </div>
+                        </div>
+                        <div class="container carousel-item">
+                            <img class="artworkImage img-fluid d-block w-100" src={Hibiscus} alt="Twelfth slide" />
+                            <div class="portfolioContent text-center">
+                                <h5 class="artTitle"><b>Hibiscus</b></h5>
+                            </div>
+                        </div>
+                        <div class="container carousel-item">
+                            <img class="artworkImage img-fluid d-block w-100" src={love} alt="Thirteenth slide" />
+                            <div class="portfolioContent text-center">
+                                <h5 class="artTitle"><b>Love Drought</b></h5>
+                            </div>
+                        </div>                        <div class="container carousel-item">
+                            <img class="artworkImage img-fluid d-block w-100" src={marlboro} alt="Fourteenth slide" />
+                            <div class="portfolioContent text-center">
+                                <h5 class="artTitle"><b>Marlboro</b></h5>
                             </div>
                         </div>
                     </div>
