@@ -34,7 +34,7 @@ body {
     margin-bottom: 10px;
   }
   .navbar{
-    font-family: Futura;
+    font-family: 'Baloo Chettan', cursive;
     font-size: 20pt;
     background-color: #6fbed6;
   }
@@ -57,13 +57,17 @@ body {
     background-color: transparent;
   }
   h2{
-    font-family: Futura;
+    font-family: 'Baloo Chettan', cursive;
+    color: #6fbed6;
+  }
+  h4{
+    font-family: 'Baloo Chettan', cursive;
     color: #6fbed6;
   }
   p{
     font-family: Helvetica, sans-serif;
-    font-size: 14pt;
-    color: #6fbed6;
+    font-size: 12pt;
+    color: #3d6a77;
   }
  .MyFace{
    border-radius: 50%;
@@ -79,6 +83,7 @@ body {
   color: #c49e05;
 }
 .card-link{
+  font-family: 'Baloo Chettan', cursive;
   color: #6fbed6;
 }
 h2.pageHeading{
@@ -89,6 +94,8 @@ h2.pageHeading{
   font-size: 20pt;
 }
 .eMail{
+  font-family: 'Baloo Chettan', cursive;
+  color: #6fbed6;
   font-size: 25pt;
 }
 a.card-link:hover{

@@ -15,7 +15,7 @@ export default class Home extends Component {
                         <p>
                             <span>
                                 <p className="aboutContent">
-                                    <b>Web developer and visual artist with a passion for shaping unique narratives and experiences.</b>
+                                    <h4>Web developer and visual artist with a passion for shaping unique narratives and experiences.</h4>
                                     <br></br>
                                 </p>
                             </span>
