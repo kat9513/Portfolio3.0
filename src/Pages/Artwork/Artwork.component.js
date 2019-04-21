@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 
-const aggretsuko = require("../../Assets/Images/webDev/aggretsuko.png")
-const artsy = require("../../Assets/Images/webDev/Artsy.png")
-const burger = require("../../Assets/Images/webDev/burger.png")
-const crystal = require("../../Assets/Images/webDev/crystal.png")
-const geo = require("../../Assets/Images/webDev/GeoCuisine.png")
-const psychic = require("../../Assets/Images/webDev/psychic.png")
+const Aquarium = require("../../Assets/Images/ArtWork/Aquarium.jpg")
+const Ravine = require("../../Assets/Images/ArtWork/ARavineInTheEarth.jpg")
+const BadGirl = require("../../Assets/Images/ArtWork/BadGirl.JPG")
+const BigHead = require("../../Assets/Images/ArtWork/BigHead.jpg")
+const Blam = require("../../Assets/Images/ArtWork/blam(1).png")
+const Blue = require("../../Assets/Images/ArtWork/BlueBonnet.jpg")
 
 
 export default class Artwork extends Component {
@@ -21,10 +21,10 @@ export default class Artwork extends Component {
                         <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-                    </ol>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>                    </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img class="portfolioImage d-block w-100" src={aggretsuko} alt="First slide" />
+                            <img class="portfolioImage d-block w-100" src={Aquarium} alt="First slide" />
                             <div class="portfolioContent text-center">
                                 <h5><b>Trivia Game</b></h5>
                                 <p class="links text-center">
@@ -35,7 +35,7 @@ export default class Artwork extends Component {
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img class="portfolioImage d-block w-100" src={artsy} alt="Second slide" />
+                            <img class="portfolioImage d-block w-100" src={Ravine} alt="Second slide" />
                             <div class="portfolioContent text-center">
                                 <h5><b>Artsy</b></h5>
                                 <p class="links text-center">
@@ -46,7 +46,7 @@ export default class Artwork extends Component {
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img class="portfolioImage d-block w-100" src={burger} alt="Third slide" />
+                            <img class="portfolioImage d-block w-100" src={BadGirl} alt="Third slide" />
                             <div class="portfolioContent text-center">
                                 <h5><b>Eat da Burger!</b></h5>
                                 <p class="links text-center">
@@ -57,7 +57,7 @@ export default class Artwork extends Component {
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img class="portfolioImage d-block w-100" src={crystal} alt="Third slide" />
+                            <img class="portfolioImage d-block w-100" src={BigHead} alt="Third slide" />
                             <div class="portfolioContent text-center">
                                 <h5><b>Crystal Collector</b></h5>
                                 <p class="links">
@@ -68,7 +68,7 @@ export default class Artwork extends Component {
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img class="portfolioImage d-block w-100" src={geo} alt="Third slide" />
+                            <img class="portfolioImage d-block w-100" src={Blam} alt="Third slide" />
                             <div class="portfolioContent text-center">
                                 <h5><b>GeoCuisine</b></h5>
                                 <p class="links">
@@ -80,7 +80,7 @@ export default class Artwork extends Component {
 
                         </div>
                         <div class="carousel-item">
-                            <img class="portfolioImage d-block w-100" src={psychic} alt="Third slide" />
+                            <img class="portfolioImage d-block w-100" src={Blue} alt="Third slide" />
                             <div class="portfolioContent text-center">
                                 <h5><b>Psychic Game</b></h5>
                                 <p class="links">
