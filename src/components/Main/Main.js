@@ -11,6 +11,7 @@ import About from "../../Pages/About/About.component";
 import Portfolio from "../../Pages/Portfolio/Portfolio.component";
 import Artwork from "../../Pages/Artwork/Artwork.component";
 import Contact from "../../Pages/Contact/Contact.component";
+import Footer from "../Footer/Footer";
 
 class Main extends Component {
     render() {
@@ -30,6 +31,7 @@ class Main extends Component {
                         </div>
                     </div>
                 </HashRouter>
+                <Footer/>
             </div>
         );
     }

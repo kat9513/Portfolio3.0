@@ -23,71 +23,41 @@ export default class Artwork extends Component {
                         <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>                    </ol>
                     <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img class="portfolioImage d-block w-100" src={Aquarium} alt="First slide" />
+                        <div class="container carousel-item active">
+                            <img class="artworkImage img-fluid d-block w-100" src={Aquarium} alt="First slide" />
                             <div class="portfolioContent text-center">
-                                <h5><b>Trivia Game</b></h5>
-                                <p class="links text-center">
-                                    <a class="links" href="https://github.com/kat9513/TriviaGame">GitHub</a>
-                                    <br />
-                                    <a class="links" href="https://kat9513.github.io/TriviaGame/">Site</a>
-                                </p>
+                                <h5><b>Fish Tank</b></h5>
                             </div>
                         </div>
-                        <div class="carousel-item">
-                            <img class="portfolioImage d-block w-100" src={Ravine} alt="Second slide" />
+                        <div class="container carousel-item">
+                            <img class="artworkImage img-fluid d-block w-100" src={Ravine} alt="Second slide" />
                             <div class="portfolioContent text-center">
-                                <h5><b>Artsy</b></h5>
-                                <p class="links text-center">
-                                    <a class="links" href="https://github.com/kat9513/GIPHY_APP">GitHub</a>
-                                    <br />
-                                    <a class="links" href="https://kat9513.github.io/GIPHY_APP/">Site</a>
-                                </p>
+                                <h5><b>A Ravine in the Earth a Mile Deep</b></h5>
                             </div>
                         </div>
-                        <div class="carousel-item">
-                            <img class="portfolioImage d-block w-100" src={BadGirl} alt="Third slide" />
+                        <div class="container carousel-item">
+                            <img class="artworkImage img-fluid d-block w-100" src={BadGirl} alt="Third slide" />
                             <div class="portfolioContent text-center">
-                                <h5><b>Eat da Burger!</b></h5>
-                                <p class="links text-center">
-                                    <a class="links" href="https://github.com/kat9513/burger">GitHub</a>
-                                    <br />
-                                    <a class="links" href="https://tranquil-island-56945.herokuapp.com/burgers">Site</a>
-                                </p>
+                                <h5><b>Bad Love</b></h5>
                             </div>
                         </div>
-                        <div class="carousel-item">
-                            <img class="portfolioImage d-block w-100" src={BigHead} alt="Third slide" />
+                        <div class="container carousel-item">
+                            <img class="artworkImage img-fluid d-block w-100" src={BigHead} alt="Third slide" />
                             <div class="portfolioContent text-center">
-                                <h5><b>Crystal Collector</b></h5>
-                                <p class="links">
-                                    <a class="links" href="https://github.com/kat9513/Crystal-Game">GitHub</a>
-                                    <br />
-                                    <a class="links" href="https://kat9513.github.io/Crystal-Game/index.html">Site</a>
-                                </p>
+                                <h5><b>Big Head</b></h5>
                             </div>
                         </div>
-                        <div class="carousel-item">
-                            <img class="portfolioImage d-block w-100" src={Blam} alt="Third slide" />
+                        <div class="container carousel-item">
+                            <img class="artworkImage img-fluid d-block w-100" src={Blam} alt="Third slide" />
                             <div class="portfolioContent text-center">
-                                <h5><b>GeoCuisine</b></h5>
-                                <p class="links">
-                                    <a class="links" href="https://github.com/kat9513/fixingProject1">GitHub</a>
-                                    <br />
-                                    <a class="links" href="https://kat9513.github.io/GeoCuisine/?">Site</a>
-                                </p>
+                                <h5><b>Blam!</b></h5>
                             </div>
 
                         </div>
-                        <div class="carousel-item">
-                            <img class="portfolioImage d-block w-100" src={Blue} alt="Third slide" />
+                        <div class="container carousel-item">
+                            <img class="artworkImage img-fluid d-block w-100" src={Blue} alt="Third slide" />
                             <div class="portfolioContent text-center">
-                                <h5><b>Psychic Game</b></h5>
-                                <p class="links">
-                                    <a class="links" href="https://github.com/kat9513/Psychic-Game">GitHub</a>
-                                    <br />
-                                    <a class="links" href="https://kat9513.github.io/Psychic-Game/">Site</a>
-                                </p>
+                                <h5><b>Texas Bluebonnets</b></h5>
                             </div>
                         </div>
                     </div>

@@ -22,10 +22,6 @@ body {
     padding: 20px;
     display: inline-block;
   }
-  .content {
-    background-color: #FFF;
-    padding: 20px;
-  }
   .content h2 {
     padding: 0;
     margin: 0;
@@ -55,6 +51,7 @@ body {
   }
   .content{
     background-color: transparent;
+    padding: 20px;
   }
   h2{
     font-family: 'Baloo Chettan', cursive;
@@ -124,6 +121,17 @@ a.card-link:hover{
   color: #3d6a77;
 }
 img.portfolioImage{
-  height: 200px;
+  height: 400px;
   object-fit: contain;
+}
+img.artworkImage{
+  height: 400px;
+  object-fit: contain;
+}
+.carousel-inner{
+  height: 550px;
+}
+.footer-text{
+  font-family: 'Baloo Chettan', cursive;
+  padding-top: 150px;
 }
