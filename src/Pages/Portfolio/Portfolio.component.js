@@ -12,7 +12,7 @@ export default class Portfolio extends Component {
         return (
             <div>
                 <h2 className="pageHeading">Portfolio</h2>
-                <h4 class="text-center col-8 offset-md-2">Click on the title below each image to launch the live site, or the GitHub link to view the repository!</h4>
+                <h4 class="description text-center col-md-8 offset-md-2 col-sm-12">Click on the title below each image to launch the live site, or the GitHub link to view the repository!</h4>
                 <div id="carouselExampleIndicators" class="carousel slide container" data-interval="false" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -30,7 +30,7 @@ export default class Portfolio extends Component {
                                 <p class="links text-center">
                                     <a class="links" href="https://github.com/kat9513/TriviaGame">GitHub</a>
                                     <br />
-                                    <p class="appDescription col-6 offset-md-3">
+                                    <p class="appDescription col-md-6 offset-md-3 col-sm-12">
                                     A Trivia game using JavaScript for the logic and jQuery to manipulate the HTML based on the Netflix series Aggretsuko.
                                     </p>
                                 </p>
@@ -43,7 +43,7 @@ export default class Portfolio extends Component {
                                 <p class="links text-center">
                                     <a class="links" href="https://github.com/kat9513/GIPHY_APP">GitHub</a>
                                     <br/>
-                                    <p class="appDescription col-6 offset-md-3">
+                                    <p class="appDescription col-md-6 offset-md-3 col-sm-12">
                                     An app that utilizes the GIPHY API to create a dynamic web page that populates with gifs of famous artist using JavaScript and jQuery to update the HTML on the site.
                                     </p>
                                 </p>
@@ -56,7 +56,7 @@ export default class Portfolio extends Component {
                                 <p class="links text-center">
                                     <a class="links" href="https://github.com/kat9513/burger">GitHub</a>
                                     <br />
-                                    <p class="appDescription col-6 offset-md-3">
+                                    <p class="appDescription col-md-6 offset-md-3 col-sm-12">
                                     Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.
                                     Built with Node, Javascript, Express-Handlebars, and mySQL.
                                     </p>
@@ -71,7 +71,7 @@ export default class Portfolio extends Component {
                                 <p class="links">
                                     <a class="links" href="https://github.com/kat9513/Crystal-Game">GitHub</a>
                                     <br />
-                                    <p class="appDescription col-6 offset-md-3">
+                                    <p class="appDescription col-md-6 offset-md-3 col-sm-12">
                                     Crystal Collector is a number game written using HTML, CSS, JavaScript, and Bootstrap.</p>
 
                                 </p>
@@ -84,7 +84,7 @@ export default class Portfolio extends Component {
                                 <p class="links">
                                     <a class="links" href="https://github.com/kat9513/fixingProject1">GitHub</a>
                                     <br />
-                                    <p class="appDescription col-6 offset-md-3">
+                                    <p class="appDescription col-md-6 offset-md-3 col-sm-12">
                                     A web app that allows users to search for recipes based on ingredients they already have in their fridge and pantry in an effort to prevent food waste
                                     Constructed using JavaScript, React, MongoDB, Express, and Node.
                                     </p>
@@ -99,7 +99,7 @@ export default class Portfolio extends Component {
                                 <p class="links">
                                     <a class="links" href="https://github.com/kat9513/Psychic-Game">GitHub</a>
                                     <br />
-                                    <p class="appDescription col-6 offset-md-3">
+                                    <p class="appDescription col-md-6 offset-md-3 col-sm-12">
                                     The app randomly picks a letter, and the user has to guess which letter the app chose.
                                     Created using dynamically updated HTML and CSS powered by JavaScript code.
                                     </p>

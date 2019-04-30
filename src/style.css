@@ -80,7 +80,7 @@ h2.pageHeading{
     border-radius: 100%;
 }
 .carousel-indicators {
-    bottom: 0px;
+    margin: 0px;
 }
 .links{
     color: #6fbed6;
