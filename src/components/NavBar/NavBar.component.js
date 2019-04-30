@@ -15,7 +15,7 @@ export default class NavBar extends Component {
                     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div className="navbar-nav ml-auto">
                             <a className="nav-item nav-link active" href="/">About </a>
-                            <a className="nav-item nav-link" href="/#/portfolio">Portfolio</a>
+                            <a className="nav-item nav-link" href="/#/portfolio">Web-Development</a>
                             <a className="nav-item nav-link" href="/#/artwork">Artwork</a>
                             <a className="nav-item nav-link" href="/#/contact">Contact</a>
                         </div>

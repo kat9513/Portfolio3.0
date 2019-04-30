@@ -57,7 +57,7 @@ h4{
 .card-link{
     color: #6fbed6;
 }
-a.card-link:hover{
+a.card-link:hover, .appDescription{
     color: #3d6a77;
 }
 h2.pageHeading{
@@ -72,7 +72,7 @@ h2.pageHeading{
     font-size: 25pt;
 }
 .carousel-item {
-    height: 350px;
+    height: 4500px;
 }
 .carousel-indicators li {
     width: 10px;
@@ -80,7 +80,7 @@ h2.pageHeading{
     border-radius: 100%;
 }
 .carousel-indicators {
-    bottom: -10px;
+    bottom: 0px;
 }
 .links{
     color: #6fbed6;
@@ -97,7 +97,7 @@ img.artworkImage{
     object-fit: contain;
 }
 .carousel-inner{
-    height: 550px;
+    height: 800px;
 }
 .footer-text{
     padding-top: 150px;
@@ -113,6 +113,9 @@ a.instaLink{
 @media only screen and (max-width: 768px) {
     .eMail {
         font-size: 20pt;
+    }
+    .appDescription{
+        width: 100%;
     }
 }
   
