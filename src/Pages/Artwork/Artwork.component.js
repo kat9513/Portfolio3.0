@@ -47,7 +47,7 @@ export default class Artwork extends Component {
                         <div class="container carousel-item">
                             <img class="artworkImage img-fluid d-block w-100" src={Ravine} alt="Second slide" />
                             <div class="portfolioContent text-center">
-                                <h5 class="artTitle"><b>A Ravine in the Earth a Mile Deep</b></h5>
+                                <h5 class="artTitle"><b>In the Earth</b></h5>
                             </div>
                         </div>
                         <div class="container carousel-item">
