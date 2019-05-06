@@ -14,7 +14,7 @@ export default class Portfolio extends Component {
                 <h2 className="pageHeading">Portfolio</h2>
                 <h4 class="description text-center col-md-8 offset-md-2 col-sm-12">Click on the title below each image to launch the live site, or the GitHub link to view the repository!</h4>
                 <div id="carouselExampleIndicators" class="carousel slide container" data-interval="false" data-ride="carousel">
-                    <ol class="carousel-indicators">
+                    <ol class="carousel-indicators webDevIndicators">
                         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
@@ -23,7 +23,7 @@ export default class Portfolio extends Component {
                         <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
                     </ol>
                     <div class="carousel-inner">
-                        <div class="carousel-item active">
+                        <div class="carousel-item webDev active">
                             <img class="portfolioImage d-block w-100" src={aggretsuko} alt="First slide" />
                             <div class="portfolioContent text-center">
                                 <a class="links" href="https://kat9513.github.io/TriviaGame/"><h2>Trivia Game</h2></a>
@@ -36,7 +36,7 @@ export default class Portfolio extends Component {
                                 </p>
                             </div>
                         </div>
-                        <div class="carousel-item">
+                        <div class="carousel-item webDev">
                             <img class="portfolioImage d-block w-100" src={artsy} alt="Second slide" />
                             <div class="portfolioContent text-center">
                                 <a class="links" href="https://kat9513.github.io/GIPHY_APP/"><h2>Artsy</h2></a>
@@ -49,7 +49,7 @@ export default class Portfolio extends Component {
                                 </p>
                             </div>
                         </div>
-                        <div class="carousel-item">
+                        <div class="carousel-item webDev">
                             <img class="portfolioImage d-block w-100" src={burger} alt="Third slide" />
                             <div class="portfolioContent text-center">
                                 <a class="links" href="https://tranquil-island-56945.herokuapp.com/burgers"><h2>Eat da Burger!</h2></a>
@@ -64,7 +64,7 @@ export default class Portfolio extends Component {
                                 </p>
                             </div>
                         </div>
-                        <div class="carousel-item">
+                        <div class="carousel-item webDev">
                             <img class="portfolioImage d-block w-100" src={crystal} alt="Third slide" />
                             <div class="portfolioContent text-center">
                                 <a class="links" href="https://kat9513.github.io/Crystal-Game/index.html"><h2>Crystal Collector</h2></a>
@@ -77,7 +77,7 @@ export default class Portfolio extends Component {
                                 </p>
                             </div>
                         </div>
-                        <div class="carousel-item">
+                        <div class="carousel-item webDev">
                             <img class="portfolioImage d-block w-100" src={geo} alt="Third slide" />
                             <div class="portfolioContent text-center">
                                 <a class="links" href="https://kat9513.github.io/GeoCuisine/?"><h2>GeoCuisine</h2></a>
@@ -92,7 +92,7 @@ export default class Portfolio extends Component {
                             </div>
 
                         </div>
-                        <div class="carousel-item">
+                        <div class="carousel-item webDev">
                             <img class="portfolioImage d-block w-100" src={psychic} alt="Third slide" />
                             <div class="portfolioContent text-center">
                                 <a class="links" href="https://kat9513.github.io/Psychic-Game/"><h2>Psychic Game</h2></a>

@@ -21,7 +21,7 @@ export default class Artwork extends Component {
             <div>
                 <h2 className="pageHeading">Artwork</h2>
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
+                    <ol class="carousel-indicators artIndicators">
                         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
@@ -132,15 +132,15 @@ export default class Artwork extends Component {
                         <span class="sr-only">Next</span>
                     </a>
                 </div>
-                <div class="text-center">
-                    <a class="instaLink" href="https://www.instagram.com/katie.higgins/">Check out more of my work on Instagram!</a>
-                </div>
                 <div>
                     <p class="text-center">
                     I obtained my Bachelor's degree in Art from Austin College in Sherman, TX in 2017. 
                         During my senior year, I had the opportunity to study Art and the history of the Renaissance at Florence University of Art in Italy. It was during my time there that I became increasingly interested
                         in conceptual and contemporary artworks, and the interplay between art and technology in defining trends and taste.
                     </p>
+                </div>
+                <div class="text-center">
+                    <a class="instaLink" href="https://www.instagram.com/katie.higgins/">Check out more of my work on Instagram!</a>
                 </div>
             </div>
         )

@@ -71,16 +71,35 @@ h2.pageHeading{
     color: #6fbed6;
     font-size: 25pt;
 }
-.carousel-item {
-    height: 4500px;
+.footer-text{
+    padding-top: 150px;
 }
-.carousel-indicators li {
+a.instaLink{
+    color: #6fbed6;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.artIndicators li {
     width: 10px;
     height: 10px;
     border-radius: 100%;
 }
-.carousel-indicators {
-    margin: 0px;
+.artIndicators{
+    padding-bottom: 50px;
+}
+.webDevIndicators li{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+.webDevIndicators{
+    padding-bottom: 0px;
+}
+.carousel-item.webDev{
+    height: 500px;
+}
+.portfolioContent{
+    padding-top: 10px; 
 }
 .links{
     color: #6fbed6;
@@ -89,26 +108,15 @@ h2.pageHeading{
     color: #3d6a77;
 }
 img.portfolioImage{
-    height: 400px;
+    height: 250px;
     object-fit: contain;
 }
 img.artworkImage{
     height: 400px;
     object-fit: contain;
 }
-.carousel-inner{
-    height: 800px;
-}
-.footer-text{
-    padding-top: 150px;
-}
 .artTitle{
     padding-top: 40px;
-}
-a.instaLink{
-    color: #6fbed6;
-    padding-top: 40px;
-    padding-bottom: 40px;
 }
 @media only screen and (max-width: 768px) {
     .eMail {
