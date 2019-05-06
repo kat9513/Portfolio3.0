@@ -11,8 +11,8 @@ export default class About extends Component {
                     katherine9513@gmail.com
                     </b>
                     </p>
-                    <a href="https://www.linkedin.com/in/katherine-higgins-03b239144/" class="card-link">LinkedIn</a>
-                    <a href="https://github.com/kat9513" class="card-link">GitHub</a>
+                    <a href="https://www.linkedin.com/in/katherine-higgins-03b239144/" class="card-link" target="_blank">LinkedIn</a>
+                    <a href="https://github.com/kat9513" class="card-link" target="_blank"npm>GitHub</a>
                 </div>
             </div>
         )

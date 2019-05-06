@@ -85,7 +85,7 @@ a.instaLink{
     border-radius: 100%;
 }
 .artIndicators{
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 .webDevIndicators li{
     width: 10px;
@@ -116,7 +116,8 @@ img.artworkImage{
     object-fit: contain;
 }
 .artTitle{
-    padding-top: 40px;
+    padding-top: 30px;
+    padding-bottom: 15px;
 }
 @media only screen and (max-width: 768px) {
     .eMail {
@@ -124,6 +125,12 @@ img.artworkImage{
     }
     .appDescription{
         width: 100%;
+    }
+    .artAbout, .appDescription{
+        font-size: 10pt;
+    }
+    .description{
+        font-size: 12pt;
     }
 }
   

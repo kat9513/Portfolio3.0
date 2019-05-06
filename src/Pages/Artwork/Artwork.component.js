@@ -1,18 +1,18 @@
 import React, { Component } from 'react';
 
-const Aquarium = require("../../Assets/Images/ArtWork/Aquarium.jpg")
-const Ravine = require("../../Assets/Images/ArtWork/ARavineInTheEarth.jpg")
-const BadGirl = require("../../Assets/Images/ArtWork/BadGirl.JPG")
-const BigHead = require("../../Assets/Images/ArtWork/BigHead.jpg")
+const Aquarium = require("../../Assets/Images/ArtWork/Aquarium2.jpg")
+const Ravine = require("../../Assets/Images/ArtWork/ARavineInTheEarth2.jpg")
+const BadGirl = require("../../Assets/Images/ArtWork/BadGirl2.jpg")
+const BigHead = require("../../Assets/Images/ArtWork/BigHead2.jpg")
 const Blam = require("../../Assets/Images/ArtWork/blam(1).png")
-const Blue = require("../../Assets/Images/ArtWork/BlueBonnet.jpg")
-const Bouqet = require("../../Assets/Images/ArtWork/Bouqet.jpg")
-const Cartoon = require("../../Assets/Images/ArtWork/CartoonStudy.JPG")
-const frog = require("../../Assets/Images/ArtWork/deadfrogg.jpg")
-const flowers = require("../../Assets/Images/ArtWork/FlowersMAC.JPG")
-const FlutterBy = require("../../Assets/Images/ArtWork/FlutterBy.JPG")
-const Hibiscus = require("../../Assets/Images/ArtWork/Hibiscus.JPG")
-const love = require("../../Assets/Images/ArtWork/LoveDroubt.jpg")
+const Blue = require("../../Assets/Images/ArtWork/BlueBonnet2.jpg")
+const Bouqet = require("../../Assets/Images/ArtWork/Bouqet2.jpg")
+const Cartoon = require("../../Assets/Images/ArtWork/CartoonStudy2.jpg")
+const frog = require("../../Assets/Images/ArtWork/deadfrogg2.jpg")
+const flowers = require("../../Assets/Images/ArtWork/FlowersMAC2.jpg")
+const FlutterBy = require("../../Assets/Images/ArtWork/FlutterBy2.jpg")
+const Hibiscus = require("../../Assets/Images/ArtWork/Hibiscus2.jpg")
+const love = require("../../Assets/Images/ArtWork/LoveDroubt2.jpg")
 const marlboro = require("../../Assets/Images/ArtWork/marlboro.jpg")
 
 export default class Artwork extends Component {
@@ -133,14 +133,14 @@ export default class Artwork extends Component {
                     </a>
                 </div>
                 <div>
-                    <p class="text-center">
+                    <p class="text-center artAbout">
                     I obtained my Bachelor's degree in Art from Austin College in Sherman, TX in 2017. 
                         During my senior year, I had the opportunity to study Art and the history of the Renaissance at Florence University of Art in Italy. It was during my time there that I became increasingly interested
                         in conceptual and contemporary artworks, and the interplay between art and technology in defining trends and taste.
                     </p>
                 </div>
                 <div class="text-center">
-                    <a class="instaLink" href="https://www.instagram.com/katie.higgins/">Check out more of my work on Instagram!</a>
+                    <a class="instaLink" href="https://www.instagram.com/katie.higgins/" target="_blank">Check out more of my work on Instagram!</a>
                 </div>
             </div>
         )
