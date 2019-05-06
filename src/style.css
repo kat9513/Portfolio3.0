@@ -121,7 +121,7 @@ img.artworkImage{
 }
 @media only screen and (max-width: 768px) {
     .eMail {
-        font-size: 20pt;
+        font-size: 15pt;
     }
     .appDescription{
         width: 100%;
