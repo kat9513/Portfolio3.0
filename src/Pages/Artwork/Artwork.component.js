@@ -20,7 +20,7 @@ export default class Artwork extends Component {
         return (
             <div>
                 <h2 className="pageHeading">Artwork</h2>
-                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <div id="carouselExampleIndicators" class="carousel slide" data-interval="false" data-ride="carousel">
                     <ol class="carousel-indicators artIndicators">
                         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -36,6 +36,7 @@ export default class Artwork extends Component {
                         <li data-target="#carouselExampleIndicators" data-slide-to="11"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="12"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="13"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="14"></li>
                     </ol>
                     <div class="carousel-inner">
                         <div class="container carousel-item active">
@@ -116,12 +117,20 @@ export default class Artwork extends Component {
                             <div class="portfolioContent text-center">
                                 <h5 class="artTitle"><b>Love Drought</b></h5>
                             </div>
-                        </div>                        <div class="container carousel-item">
+                        </div>
+                        <div class="container carousel-item">
                             <img class="artworkImage img-fluid d-block w-100" src={marlboro} alt="Fourteenth slide" />
                             <div class="portfolioContent text-center">
                                 <h5 class="artTitle"><b>Marlboro</b></h5>
                             </div>
                         </div>
+                        <div class="container carousel-item">
+                            <img class="artworkImage img-fluid d-block w-100" src={marlboro} alt="Fourteenth slide" />
+                            <div class="portfolioContent text-center">
+                                <h5 class="artTitle"><b>Marlboro</b></h5>
+                            </div>
+                        </div>
+
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -132,11 +141,11 @@ export default class Artwork extends Component {
                         <span class="sr-only">Next</span>
                     </a>
                 </div>
-                <div>
-                    <p class="text-center artAbout">
-                    I obtained my Bachelor's degree in Art from Austin College in Sherman, TX in 2017. 
-                        During my senior year, I had the opportunity to study Art and the history of the Renaissance at Florence University of Art in Italy. It was during my time there that I became increasingly interested
-                        in conceptual and contemporary artworks, and the interplay between art and technology in defining trends and taste.
+                <div class="col-md-8 offset-md-2">
+                    <p class="text-center aboutContent">
+                        I obtained my Bachelor's degree in Art from Austin College in Sherman, TX in 2017.
+                            During my senior year, I had the opportunity to study Art and the history of the Renaissance at Florence University of Art in Italy. It was during my time there that I became increasingly interested
+                            in conceptual and contemporary artworks, and the interplay between art and technology in defining trends and taste.
                     </p>
                 </div>
                 <div class="text-center">

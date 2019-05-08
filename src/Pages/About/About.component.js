@@ -22,16 +22,13 @@ export default class Home extends Component {
                             </span>
                             <span>
                                 <p className="aboutContent">
-                                    Highly creative and driven individual dedicated to learning new skills and pushing for improvement.
-                                    Completed SMU’s Coding Bootcamp in 2019 and developed skills in HTML, CSS, Javascript, jQuery, Bootstrap, NodeJS, Express, React, MySQL, and MongoDB.
-                                    In addition to training in illustration and digital graphics, also has experience as a Content Writer and Customer Service Provider.
+                                I am a highly creative and driven individual dedicated to learning new skills and advancing towards constant improvement and innovation. In 2019 I completed SMU’s Coding Bootcamp where I developed skills in HTML, CSS, Javascript, jQuery, Bootstrap, NodeJS, Express, React, MySQL, and MongoDB. In addition to my training in illustration and digital graphics, I am also an experienced content writer and customer service provider. 
                                 <br/>
                                 </p>
                             </span>
                             <span>
                                 <p className="aboutContent">
-                                    Interested in Art and Technology. Particularly how Tech impacts communication and the way we interact with our environment,
-                                    and the potential boundaries Augmented and Virtual Reality can push in shaping Stories, Narratives, and Artworks.
+                                I am particularly interested in how technology is a fundamental aspect of our personal and professional lives, and how it impacts the ways we interact with and understand our world and each other on a daily basis. Based on my experience, professional drive, and ability to develop functional code/websites I look forward to making an impact and help grow a company.
                                     </p>
                                 <br/>
                                 <p class="text-center">

@@ -126,7 +126,7 @@ img.artworkImage{
     .appDescription{
         width: 100%;
     }
-    .artAbout, .appDescription{
+    .aboutContent, .appDescription{
         font-size: 10pt;
     }
     .description{
