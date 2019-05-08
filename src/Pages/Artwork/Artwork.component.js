@@ -14,6 +14,7 @@ const FlutterBy = require("../../Assets/Images/ArtWork/FlutterBy2.jpg")
 const Hibiscus = require("../../Assets/Images/ArtWork/Hibiscus2.jpg")
 const love = require("../../Assets/Images/ArtWork/LoveDroubt2.jpg")
 const marlboro = require("../../Assets/Images/ArtWork/marlboro.jpg")
+const mutton = require("../../Assets/Images/ArtWork/mutton.gif")
 
 export default class Artwork extends Component {
     render() {
@@ -46,15 +47,15 @@ export default class Artwork extends Component {
                             </div>
                         </div>
                         <div class="container carousel-item">
-                            <img class="artworkImage img-fluid d-block w-100" src={Ravine} alt="Second slide" />
+                            <img class="artworkImage img-fluid d-block w-100" src={mutton} alt="Fifteenth slide" />
                             <div class="portfolioContent text-center">
-                                <h5 class="artTitle"><b>In the Earth</b></h5>
+                                <h5 class="artTitle"><b>Mutton Today</b></h5>
                             </div>
                         </div>
                         <div class="container carousel-item">
-                            <img class="artworkImage img-fluid d-block w-100" src={BadGirl} alt="Third slide" />
+                            <img class="artworkImage img-fluid d-block w-100" src={Bouqet} alt="Seventh slide" />
                             <div class="portfolioContent text-center">
-                                <h5 class="artTitle"><b>Bad Love</b></h5>
+                                <h5 class="artTitle"><b>Bouquet</b></h5>
                             </div>
                         </div>
                         <div class="container carousel-item">
@@ -64,22 +65,21 @@ export default class Artwork extends Component {
                             </div>
                         </div>
                         <div class="container carousel-item">
+                            <img class="artworkImage img-fluid d-block w-100" src={BadGirl} alt="Third slide" />
+                            <div class="portfolioContent text-center">
+                                <h5 class="artTitle"><b>Bad Love</b></h5>
+                            </div>
+                        </div>
+                        <div class="container carousel-item">
                             <img class="artworkImage img-fluid d-block w-100" src={Blam} alt="Fifth slide" />
                             <div class="portfolioContent text-center">
                                 <h5 class="artTitle"><b>Blam!</b></h5>
                             </div>
-
                         </div>
                         <div class="container carousel-item">
                             <img class="artworkImage img-fluid d-block w-100" src={Blue} alt="Sixth slide" />
                             <div class="portfolioContent text-center">
                                 <h5 class="artTitle"><b>Texas Bluebonnets</b></h5>
-                            </div>
-                        </div>
-                        <div class="container carousel-item">
-                            <img class="artworkImage img-fluid d-block w-100" src={Bouqet} alt="Seventh slide" />
-                            <div class="portfolioContent text-center">
-                                <h5 class="artTitle"><b>Bouquet</b></h5>
                             </div>
                         </div>
                         <div class="container carousel-item">
@@ -98,6 +98,12 @@ export default class Artwork extends Component {
                             <img class="artworkImage img-fluid d-block w-100" src={flowers} alt="Tenth slide" />
                             <div class="portfolioContent text-center">
                                 <h5 class="artTitle"><b>Flower Study</b></h5>
+                            </div>
+                        </div>
+                        <div class="container carousel-item">
+                            <img class="artworkImage img-fluid d-block w-100" src={Ravine} alt="Second slide" />
+                            <div class="portfolioContent text-center">
+                                <h5 class="artTitle"><b>A Ravine in the Earth</b></h5>
                             </div>
                         </div>
                         <div class="container carousel-item">
@@ -124,13 +130,6 @@ export default class Artwork extends Component {
                                 <h5 class="artTitle"><b>Marlboro</b></h5>
                             </div>
                         </div>
-                        <div class="container carousel-item">
-                            <img class="artworkImage img-fluid d-block w-100" src={marlboro} alt="Fourteenth slide" />
-                            <div class="portfolioContent text-center">
-                                <h5 class="artTitle"><b>Marlboro</b></h5>
-                            </div>
-                        </div>
-
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
