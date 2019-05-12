@@ -121,16 +121,16 @@ export default class Portfolio extends Component {
                         <span>
                             <p class= "text-center">
                                 In 2019 I recieved my certification in Full-Stack Web Development through SMU.
-                                I participated in a rigorous curriculum that covered HTML5, CSS3, JavaScript, jQuery, Node.js, Java, Express.js, React.js, Database Theory, MongoDB, MySQL, Command Line, Git, and more.
+                                I participated in a rigorous curriculum that covered HTML5, CSS3, JavaScript, jQuery, Node.js, Express.js, React.js, MongoDB, MySQL, Command Line, Git, and more.
                     </p>
                         </span>
                         <br />
                         <span>
                             <p class= "text-center">
-                                Due to my love of Art and the theories and philosophies that drive contemporary artistic practices,
+                                Due to my love of Art and the concepts that drive contemporary artistic practices,
                                 I became increasingly interested in technology's impact on the ways we exchange information, ideas, and opinions.
-                                I was particularly inspired by my readings on Virtual and Augmented Reality's potential to shape narratives and experiences,
-                                which is how I came to decide I needed to learn to code despite having no prior experience in programming.
+                                I was particularly inspired by Virtual and Augmented Reality's potential to shape narratives and experiences,
+                                which is how I came to decide I needed to learn to code despite having no prior experience.
                     </p>
                         </span>
                         <br />
