@@ -6,6 +6,7 @@ const burger = require("../../Assets/Images/webDev/burger.png")
 const crystal = require("../../Assets/Images/webDev/crystal.png")
 const geo = require("../../Assets/Images/webDev/GeoCuisine.png")
 const psychic = require("../../Assets/Images/webDev/psychic.png")
+const tarot = require("../../Assets/Images/webDev/tarot.png")
 
 export default class Portfolio extends Component {
     render() {
@@ -32,6 +33,19 @@ export default class Portfolio extends Component {
                                     <br />
                                     <p class="appDescription col-md-6 offset-md-3 col-sm-12">
                                         A Trivia game using JavaScript for the logic and jQuery to manipulate the HTML based on the Netflix series Aggretsuko.
+                                    </p>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item webDev">
+                            <img class="portfolioImage d-block w-100" src={tarot} alt="slide" />
+                            <div class="portfolioContent text-center">
+                                <a class="links" href="https://tarocchi22.herokuapp.com/" target="_blank"><h2>Tarocchi</h2></a>
+                                <p class="links text-center">
+                                    <a class="links" href="https://github.com/kat9513/TarocchiExpress" target="_blank">GitHub</a>
+                                    <br />
+                                    <p class="appDescription col-md-6 offset-md-3 col-sm-12">
+                                    A Tarot Card app that utilizes jQuery and Ajax calls to render 3 random tarot cards from a deck of 22, as well as an appropriate description depending on if they're upside down or not.
                                     </p>
                                 </p>
                             </div>
