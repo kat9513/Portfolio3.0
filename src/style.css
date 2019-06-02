@@ -119,6 +119,9 @@ img.artworkImage{
     padding-top: 30px;
     padding-bottom: 15px;
 }
+.description{
+    padding-bottom: 50px;
+}
 @media only screen and (max-width: 768px) {
     .eMail {
         font-size: 15pt;
