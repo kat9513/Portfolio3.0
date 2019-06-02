@@ -1,6 +1,6 @@
 body{
     color: #6fbed6;
-    background-color: #ffdf63;
+    background-color: #f7dd75;
     padding: 20px;
     margin: 0;
     font-family: 'Baloo Chettan', cursive;
@@ -11,7 +11,7 @@ body{
     padding: 0%;
 }
 .fa-arrow-circle-down{
-    color: #ffdf63;
+    color: #f7dd75;
     margin: 0%;
     padding: 0%;
 }
@@ -31,14 +31,14 @@ body{
 }
 .navbar-brand{
     font-size: 20pt;
-    color: #ffdf63;
+    color: #f7dd75;
 }
 .navbar-nav{
     font-size: 15pt;
     justify-content: right;
 }
 .nav-item{
-    color: #ffdf63;
+    color: #f7dd75;
 }
 a:hover{
     color: #c49e05;
