@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 const aggretsuko = require("../../Assets/Images/webDev/aggretsuko.png")
-const artsy = require("../../Assets/Images/webDev/Artsy.png")
+const artsy = require("../../Assets/Images/webDev/Artsy2.png")
 const burger = require("../../Assets/Images/webDev/burger2.0.png")
 const crystal = require("../../Assets/Images/webDev/crystal.png")
 const geo = require("../../Assets/Images/webDev/GeoCuisine.png")
