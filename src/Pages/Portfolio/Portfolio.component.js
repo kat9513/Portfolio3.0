@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 const aggretsuko = require("../../Assets/Images/webDev/aggretsuko.png")
 const artsy = require("../../Assets/Images/webDev/Artsy.png")
-const burger = require("../../Assets/Images/webDev/burger.png")
+const burger = require("../../Assets/Images/webDev/burger2.0.png")
 const crystal = require("../../Assets/Images/webDev/crystal.png")
 const geo = require("../../Assets/Images/webDev/GeoCuisine.png")
 const psychic = require("../../Assets/Images/webDev/psychic.png")
@@ -67,7 +67,7 @@ export default class Portfolio extends Component {
                         <div class="carousel-item webDev">
                             <img class="portfolioImage d-block w-100" src={burger} alt="Third slide" />
                             <div class="portfolioContent text-center">
-                                <a class="links" href="https://tranquil-island-56945.herokuapp.com/burgers" target="_blank"><h2>Eat da Burger!</h2></a>
+                                <a class="links" href="https://burger806.herokuapp.com/burgers" target="_blank"><h2>Eat da Burger!</h2></a>
                                 <p class="links text-center">
                                     <a class="links" href="https://github.com/kat9513/burger" target="_blank">GitHub</a>
                                     <br />
